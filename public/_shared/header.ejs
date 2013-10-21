@@ -1,0 +1,19 @@
+<!-- Header -->
+<header id="header">
+	<div class="logo">
+		<div>
+			<h1><a href="/" id="logo">TXT</a></h1>
+			<span class="byline">A responsive site template by HTML5 UP</span>
+		</div>
+	</div>
+</header>
+
+<!-- Nav -->
+<nav id="nav" class="skel-panels-fixed">
+	<ul>
+		<li class="<% if (current.source == 'index') { %>current_page_item <% } %>"><a href="/index">Home</a></li>
+		<li class="<% if (current.source == 'left-sidebar') { %>current_page_item <% } %>"><a href="/left-sidebar">Left Sidebar</a></li>
+		<li class="<% if (current.source == 'right-sidebar') { %>current_page_item <% } %>"><a href="/right-sidebar">Right Sidebar</a></li>
+		<li class="<% if (current.source == 'no-sidebar') { %>current_page_item <% } %>"><a href="/no-sidebar">No Sidebar</a></li>
+	</ul>
+</nav>
